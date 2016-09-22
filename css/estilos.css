@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  /*font-weight: 400;*/
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(../font/icons/Material-Design-Icons.woff2) format('woff2');
+}
+
+.material-icons_items {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+.material-icons_item {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 3rem;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+.material-icons_logo {
+font-family: 'Material Icons';
+font-size: 4rem;
+font-weight: normal;
+font-style: normal;
+line-height: 1;
+letter-spacing: normal;
+text-transform: none;
+display: inline-block;
+white-space: nowrap;
+word-wrap: normal;
+direction: ltr;
+-webkit-font-feature-settings: 'liga';
+-webkit-font-smoothing: antialiased;
+    }
+
+h2{
+text-align: center;
+	color: #e65100;
+}
+.formulario {
+    margin: auto;
+    margin-top: 1%;
+    padding: 20px;
+    min-width: 400px;
+    max-width: 600px;
+    box-shadow: 0px 0px 4px #000;
+}
+body {
+    display:flex;
+    min-height:100vh;
+    flex-direction:column;
+}
+
+main{
+    flex:1 0 auto;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    
+  <head>
+       <meta charset="utf-8">
+     <title>Mis pass</title>
+     <script src="js/jquery.js"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <link rel="stylesheet" type="text/css" href="css/materialize.css">
+     <script src="js/materialize.min.js"></script>
+     <link rel="stylesheet"  href="css/estilos.css">
+   </head>
+
+   <body> 
+      <nav>
+            <div class="nav-wrapper">
+               <a href="index.html" class="brand-logo center">Mis Pass</a>
+                 <a href="#" data-activates="mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+
+             <ul class="right hide-on-med-and-down">
+              <li><a href="index.html"><i class="material-icons_items left">home</i>Inicio</a></li>
+              <li><a href="registrar.html"><i class="material-icons_items left">add</i>Agregar</a></li>
+              <li><a href="consultar.html"><i class="material-icons_items left">search</i>consultar</a></li>
+              <li><a href="actualizar.html"><i class="material-icons_items left">create</i>Modificar</a></li>
+              <li><a href="eliminar.html"><i class="material-icons_items left">delete</i>Eliminar</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile">
+              <li><a href="index.html"><i class="material-icons_items left">home</i>Inicio</a></li>
+              <li><a href="registrar.html"><i class="material-icons_items left">add</i>Agregar</a></li>
+              <li><a href="consultar.html"><i class="material-icons_items left">search</i>consultar</a></li>
+              <li><a href="actualizar.html"><i class="material-icons_items left">create</i>Modificar</a></li>
+              <li><a href="eliminar.html"><i class="material-icons_items left">delete</i>Eliminar</a></li>
+            </ul>
+            </div>
+      </nav>
+
+      <section id="actualizar_eliminar">
+        <form id="form_consulta">
+            <div id="ver" class="container"></div>
+            <div class="container">
+            <button class="boton_modificar btn waves-effect waves-light" id="boton_modificar" type="button" id="button_seleccion"><i class="material-icons_items left">create</i>Modificar</button> 
+            </div>        
+        </form>
+        <div id="modificar" class="container">
+      	  <form>
+              <div>
+                  <h2>Modificar</h2>
+               </div>                 
+              <div >
+                 <label  type="text" for="usuario">Usuario:</label>
+                 <input  id="usuario"></input>         
+              </div>
+              <div >
+                 <label  type="text" for="pass">Contraseña:</label>
+                 <input  id="pass"></input>         
+              </div>
+              <div >
+                 <label  type="text" for="descripcion">Descripcion:</label>
+                 <input  id="descripcion"></input>         
+              </div>
+            <div>
+                 <button class="btn waves-effect waves-light btn-large"   type="submit" id="reg"><i class="material-icons_items left">save</i>Guardar</button>
+                 <button class="btn waves-effect waves-light btn-large"  type="submit" id="cancel"><i class="material-icons_items left">close</i>Cancelar</button>
+                 <br>                
+            </div>
+      	  </form>
+        </div>
+      </section>
+      <header></header>
+      <main></main>
+      <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Mis Pass</h5>
+                <p class="grey-text text-lighten-4">Gestor de usuarios y contraseñas, nunca mas perderas acceso a tus cuentas.</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2016 Por Daniel Orozco - Universidad Popular Del Cesar
+            <a class="grey-text text-lighten-4 right" href="index.html"> Inicio de Mis Pass</a>
+            </div>
+          </div>
+        </footer>
+      <script src="js/actualizar_eliminar.js"></script>
+   </body>
+
+
+</html>
